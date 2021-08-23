@@ -26,7 +26,7 @@ const ExplorerName = styled.span.attrs({
 const explorers = {
   [EXTERNAL_EXPLORER_BLOCKCHAIR]: {
     name: 'blockchair',
-    pathbase: 'https://blockchair.com/bitcoin/transaction/',
+    pathbase: 'https://blockchair.com/litecoin/transaction/',
     title: 'View on Blockchair',
     linkText: 'Blockchair',
   },

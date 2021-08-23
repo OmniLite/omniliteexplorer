@@ -93,8 +93,7 @@ module.exports = require('./webpack.base.babel')({
     new WebpackPwaManifest({
       name: 'OmniExplorer',
       short_name: 'OmniExplorer',
-      description:
-        'The block explorer for Omni Token, Tether, USDT, MaidSafe and Omni Layer Tokens / Cryptocurrencies',
+      description: 'The block explorer for Omni Layer for Litecoin',
       theme_color: '#b1624d',
       inject: true,
       ios: true,

@@ -1,1 +1,1 @@
-export default (!window.location.href.includes('ftc') && !window.location.href.includes('ltc'));
+export default window.location.href.includes('btc');

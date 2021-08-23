@@ -23,7 +23,6 @@ import MenuButton from 'components/MenuButton';
 import isTestnet from 'utils/isTestnet';
 import isOmniFeather from 'utils/isOmniFeather';
 import menuReducer, { initialState } from 'components/Menu/reducer';
-import EcosystemLogo from 'components/EcosystemLogo';
 import { toggleDisabledTestnet } from './actions';
 
 import './menu.scss';
@@ -37,7 +36,7 @@ const MenuDivider = styled.div`
   margin-bottom: 12px;
 `;
 
-function Menu(props) {
+function Menu() {
   const [menuOpened, setMenuOpened] = useState(false);
   const [testnet, setTestnet] = useState(isTestnet);
   const [state, dispatch] = useReducer(menuReducer, initialState);
@@ -174,13 +173,8 @@ function Menu(props) {
             </NavLink>
           </Col>
           <Col xs="6" sm="4">
-            <h5>Ecosystems</h5>
-            <EcosystemLogo />
             <h5>API</h5>
-            <NavLink
-              href={getLocationPath()}
-              target="_blank"
-            >
+            <NavLink href={getLocationPath()} target="_blank">
               Documentation
             </NavLink>
           </Col>

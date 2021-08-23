@@ -101,13 +101,13 @@ export function App({ loadStatus }) {
       <AppWrapper>
         <Helmet
           titleTemplate="%s - Omni Explorer"
-          defaultTitle="Omni Explorer - The block explorer for Omni Token, Tether, USDT, MaidSafe and Omni Layer Tokens / Cryptocurrencies"
+          defaultTitle="OmniLite Explorer - The block explorer for Omni Layer for Litecoin"
         >
           <meta
             name="description"
-            content="The block explorer for Omni Token, Tether, USDT, MaidSafe and Omni Layer Tokens / Cryptocurrencies"
+            content="The block explorer for Omni Layer for Litecoin"
           />
-          <link rel="canonical" href="https://omniexplorer.info" />
+          <link rel="canonical" href="https://explorer.omnilite.org" />
           <meta name="referrer" content="always" />
         </Helmet>
         <Header />

@@ -6,16 +6,15 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
 
 import Menu from 'components/Menu';
-import { Navbar, NavbarBrand } from 'reactstrap';
+import { Navbar } from 'reactstrap';
 import NavigationBar from 'components/NavigationBar';
 import ServiceBlock from 'components/ServiceBlock';
 import SearchBox from 'components/SearchBox';
 import HeaderBrand from 'components/HeaderBrand';
 
-function Header(props) {
+function Header() {
   return (
     <div id="app-header">
       <NavigationBar>

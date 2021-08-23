@@ -1,14 +1,12 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
 
 const config = {
-  shortSiteTitle: 'Omni Explorer',
+  shortSiteTitle: 'OmniLite Explorer',
   siteTitle: 'The block explorer for Omni Layer Tokens',
-  siteDescription:
-    'The block explorer for Omni Token, Tether, USDT, MaidSafe and Omni Layer Tokens / Cryptocurrencies',
+  siteDescription: 'The block explorer for Omni Layer for Litecoin',
   siteImage: '/favicon.png',
-  siteUrl: 'https://omniexplorer.info',
+  siteUrl: 'https://explorer.omnilite.org',
   pathPrefix: '',
   authorTwitterAccount: '@Omni_layer',
 };
@@ -48,9 +46,6 @@ const FactoryLinkPreview = props => {
       />
     </Helmet>
   );
-};
-
-FactoryLinkPreview.propTypes = {
 };
 
 export default FactoryLinkPreview;

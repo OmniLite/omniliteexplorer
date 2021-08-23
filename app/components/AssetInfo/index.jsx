@@ -103,7 +103,7 @@ function AssetInfo(asset) {
   } else {
     registeredMessage = (
       <td style={{ whiteSpace: 'break-spaces' }}>
-        This property is not registered with OmniExplorer.info. Please see{' '}
+        This property is not registered with explorer.omnilite.org. Please see{' '}
         <StyledA href="/promote">Promote Your Property</StyledA> for further
         details.
       </td>
